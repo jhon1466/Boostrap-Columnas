@@ -1,95 +1,68 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-</head>
-
-<body>
-
-  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
               </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="botones.html">Botones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tablas.html">Tablas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="columnas.html">Columnas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="modales.html">Modales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="iconos.html">Iconos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="formulario.html">Formulario</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="formulario2.html">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
             </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
+            
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <h1>Hello, world!</h1>
+        Bootstrap (anteriormente Twitter Bootstrap ) es un marco CSS gratuito y de código abierto orientado al desarrollo de sitios web front-end responsivos y con prioridad para dispositivos móviles . Contiene plantillas de diseño basadas en HTML , CSS y (opcionalmente) JavaScript para tipografía , formularios , botones , navegación y otros componentes de interfaz.
+            A partir de mayo de 2023 , Bootstrap es el 17.º proyecto con más estrellas (la 4.ª biblioteca con más estrellas) en GitHub , con más de 164 000 estrellas. Según W3Techs, el 19,2 % de todos los sitios web utilizan Bootstrap.
 
 
 
 
 
-  <div class="container" style="border: 1px solid black; background-color: rgb(255, 255, 255);">
-    <div class="row">
-      <div class="col-lg-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptatibus voluptatem
-        dolorem quas natus tenetur fugiat cum nam, aspernatur praesentium excepturi a neque id magni beatae officia in
-        ipsa nostrum.</div>
-      <div class="col-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptatibus voluptatem
-        dolorem quas natus tenetur fugiat cum nam, aspernatur praesentium excepturi a neque id magni beatae officia in
-        ipsa nostrum.</div>
-      <div class="col-lg-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure voluptatibus voluptatem
-        dolorem quas natus tenetur fugiat cum nam, aspernatur praesentium excepturi a neque id magni beatae officia in
-        ipsa nostrum.</div>
-    </div>
-    <div class="row">
-      <div class="col-lg-7"><button type="button" class="btn btn-primary">Primario</button></div>
-      <div class="col-lg-5"><button type="button" class="btn btn-secondary">Secundario</button></div>
-    </div>
-    <br>
-    <br>
-    <div class="row">
-      <div class="col-lg-4"><img src="https://w.wallhaven.cc/full/2y/wallhaven-2yrqoy.png"
-          class="img-fluid rounded-4 border border-1 border-primary" alt="..."></div>
-
-      <div class="col-lg-4"><img src="https://w.wallhaven.cc/full/l8/wallhaven-l851yq.png"
-          class="img-fluid rounded-circle border border-1 border-primary" alt=""></div>
-      <div class="col-lg-4"><img src="https://w.wallhaven.cc/full/kx/wallhaven-kxpvwq.jpg"
-          class="img-thumbnail border border-1 border-primary" alt="..."></div>
-    </div>
-  </div>
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-</body>
-
+      </div>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
 </html>
